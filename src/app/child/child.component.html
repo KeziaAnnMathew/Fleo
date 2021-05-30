@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="card" *ngFor="let parentData of childArray" style="width: 18rem;">
+        <div class="card-body">
+            <div class="top">
+                <h5 class="card-title">{{parentData.factory_name}}</h5>
+                <p class="card-text"><span>{{percentage}}%</span>complete</p>
+            </div>
+            <div class="middle-block">
+                <div class="middle">
+                    <p class="card-text">Total Sales - {{parentData.total_sales}} Crore<br/>
+                    Target Sales - {{parentData.target_sales}} Crore</p>
+                </div>
+                <div class="middle-bottom">
+                    <p class="card-text">{{parentData.track_status}}</p>
+                </div>
+            </div>
+            <div class="bottom-block">
+
+            </div>
+        </div>
+    </div>
+</div>

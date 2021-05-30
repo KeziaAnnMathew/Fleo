@@ -1,0 +1,97 @@
+[
+        {
+            "_id":0,
+            "factory_name":"TATA STEEL",
+            "total_sales":200,
+            "target_sales":400,
+            "track_status":"Off Track",
+            "child_nodes":3,
+            "parent_id":null,
+            "child_id":[1,2,3]
+        },
+        {
+            "_id":1,
+            "factory_name":"Factory A",
+            "total_sales":20,
+            "target_sales":100,
+            "track_status":"At Risk",
+            "child_nodes":2,
+            "parent_id":0,
+            "child_id":[4,5]
+        },
+        {
+            "_id":2,
+            "factory_name":"Factory B",
+            "total_sales":150,
+            "target_sales":200,
+            "track_status":"On Track",
+            "child_nodes":2,
+            "parent_id":0,
+            "child_id":[6,7]
+        },
+        {
+            "_id":3,
+            "factory_name":"Factory C",
+            "total_sales":20,
+            "target_sales":100,
+            "track_status":"Off Track",
+            "child_nodes":2,
+            "parent_id":0,
+            "child_id":[8,9]
+        },
+        {
+            "_id":4,
+            "factory_name":"Godown A",
+            "total_sales":10,
+            "target_sales":50,
+            "track_status":"At Risk",
+            "child_nodes":2,
+            "parent_id":1
+        },
+        {
+            "_id":5,
+            "factory_name":"Godown B",
+            "total_sales":10,
+            "target_sales":50,
+            "track_status":"At Risk",
+            "child_nodes":2,
+            "parent_id":1
+        },
+        {
+            "_id":6,
+            "factory_name":"Godown A",
+            "total_sales":75,
+            "target_sales":100,
+            "track_status":"On Track",
+            "child_nodes":2,
+            "parent_id":2
+        },
+        {
+            "_id":7,
+            "factory_name":"Godown B",
+            "total_sales":75,
+            "target_sales":100,
+            "track_status":"On Track",
+            "child_nodes":2,
+            "parent_id":2
+        },
+        {
+            "_id":8,
+            "factory_name":"Godown A",
+            "total_sales":10,
+            "target_sales":50,
+            "track_status":"At Risk",
+            "child_nodes":2,
+            "parent_id":3
+        },
+        {
+            "_id":9,
+            "factory_name":"Godown B",
+            "total_sales":20,
+            "target_sales":50,
+            "track_status":"Off Track",
+            "child_nodes":2,
+            "parent_id":3
+        }
+
+    ]
