@@ -46,7 +46,8 @@
             "target_sales":50,
             "track_status":"At Risk",
             "child_nodes":2,
-            "parent_id":1
+            "parent_id":1,
+            "child_id":[]
         },
         {
             "_id":5,
@@ -55,7 +56,8 @@
             "target_sales":50,
             "track_status":"At Risk",
             "child_nodes":2,
-            "parent_id":1
+            "parent_id":1,
+            "child_id":[]
         },
         {
             "_id":6,
@@ -64,7 +66,8 @@
             "target_sales":100,
             "track_status":"On Track",
             "child_nodes":2,
-            "parent_id":2
+            "parent_id":2,
+            "child_id":[]
         },
         {
             "_id":7,
@@ -73,7 +76,8 @@
             "target_sales":100,
             "track_status":"On Track",
             "child_nodes":2,
-            "parent_id":2
+            "parent_id":2,
+            "child_id":[]
         },
         {
             "_id":8,
@@ -82,7 +86,8 @@
             "target_sales":50,
             "track_status":"At Risk",
             "child_nodes":2,
-            "parent_id":3
+            "parent_id":3,
+            "child_id":[]
         },
         {
             "_id":9,
@@ -91,7 +96,8 @@
             "target_sales":50,
             "track_status":"Off Track",
             "child_nodes":2,
-            "parent_id":3
+            "parent_id":3,
+            "child_id":[]
         }
 
     ]

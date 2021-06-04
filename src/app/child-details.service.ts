@@ -10,9 +10,11 @@ export class ChildDetailsService {
   getTopLevelNodes(){
     for(var i=0;i<factories.length;i++){
      if(factories[i].parent_id == null){
-      return (factories[i]);
+      var data:any=factories[i]
      }
     }
+
+    return data;
   }
   getChildNodes(parent_id:any){
     var list=[];

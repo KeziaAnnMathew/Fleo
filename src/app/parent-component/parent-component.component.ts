@@ -23,6 +23,8 @@ export class ParentComponentComponent implements OnInit {
    
   }
   getChildNodes(){
+    // console.log("child");
+    // // this.parentData=this.service.getChildNodes(id);
     this.flag=!this.flag;
   }
 

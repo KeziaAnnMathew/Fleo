@@ -22,4 +22,5 @@
         </div>
     </div>
 </div>
-<app-child  *ngIf="flag" [childId]="parentData.child_id"></app-child>
+<!-- <app-parent-component *ngIf="flag" ></app-parent-component> -->
+<app-child  *ngIf="flag" [childId]="parentData._id"></app-child>
